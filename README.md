@@ -4,6 +4,27 @@
 [![Holodevelopers channel on Slack](https://img.shields.io/badge/slack-@holodevelopers-%23972299.svg?logo=slack)](https://holodevelopers.slack.com/messages/CN1A7JB3R)
 [![NuGet](https://img.shields.io/nuget/vpre/Microsoft.MixedReality.WebRTC)](https://github.com/microsoft/MixedReality-WebRTC/releases)
 
+Microsoft MixedReality-WebRTC ist eine Technologie, die es ermöglicht, Audio, Video und Daten in Echtzeit zwischen Geräten oder Anwendungen auszutauschen. Hier ist eine einfache Erklärung, was das bedeutet und wie es funktioniert:
+
+1. **Was ist WebRTC?**
+   WebRTC (Web Real-Time Communication) ist eine Technologie, die es erlaubt, direkte Verbindungen zwischen Geräten über das Internet herzustellen. Sie wird oft für Videokonferenzen, Sprachchats oder den Austausch von Dateien verwendet, ohne dass ein zentraler Server die Daten weiterleitet.
+
+2. **Was macht Microsoft MixedReality-WebRTC besonders?**
+   Microsoft MixedReality-WebRTC ist eine Version dieser Technologie, die speziell für Anwendungen im Bereich Augmented Reality (AR) und Virtual Reality (VR) angepasst wurde. Es hilft Entwicklern, Audio, Video und andere Daten zwischen AR- oder VR-Geräten auszutauschen.
+
+3. **Wie wird es genutzt?**
+   - **Video und Audio:** Es ermöglicht, Video- und Audiostreams zwischen verschiedenen Benutzern zu übertragen, ähnlich wie bei einem Videotelefonat, aber optimiert für AR/VR-Anwendungen.
+   - **Datenübertragung:** Man kann auch andere Daten, wie Informationen über die Position eines Objekts in einer virtuellen Umgebung, senden.
+   - **Plattformunabhängig:** Es funktioniert auf verschiedenen Geräten wie Windows, HoloLens oder Android.
+
+4. **Ein typisches Beispiel:**
+   Stell dir vor, zwei Leute tragen eine AR-Brille und arbeiten gemeinsam an einem 3D-Modell. MixedReality-WebRTC sorgt dafür, dass beide in Echtzeit sehen und hören können, was der andere macht, und ermöglicht den Datenaustausch über das Internet.
+
+5. **Technische Basis:**
+   Die Technologie baut auf WebRTC-Standards auf, kombiniert diese aber mit speziellen Funktionen und Optimierungen, die für AR und VR nützlich sind. Entwickler können es in ihre Anwendungen integrieren, indem sie Programmierschnittstellen (APIs) verwenden, die Microsoft bereitstellt.
+
+Zusammengefasst: MixedReality-WebRTC ist ein Werkzeug, mit dem Entwickler Echtzeit-Kommunikation für AR- und VR-Anwendungen einfach umsetzen können. Es hilft, immersive, interaktive Erlebnisse zu schaffen, bei denen Benutzer miteinander und mit virtuellen Objekten in Echtzeit interagieren können.
+
 MixedReality-WebRTC is a collection of libraries to help mixed reality app developers to integrate peer-to-peer real-time audio and video communication into their application and improve their collaborative experience.
 
 - Enables **multi-track real-time audio / video / data communication** with a remote peer
